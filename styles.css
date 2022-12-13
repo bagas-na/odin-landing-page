@@ -1,0 +1,20 @@
+body > * {
+    border: 1px solid rgb(0, 26, 255);
+}
+
+body > * > * {
+    border: 1px solid teal;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+}
+
+.header-links {
+    display: flex;
+}
