@@ -1,4 +1,4 @@
-body {
+/* body {
     border: 1px dotted black;
 }
 
@@ -20,7 +20,7 @@ body > * > * > * > * {
 
 body > * > * > * > * > * {
     border: 1px dotted cyan;
-}
+} */
 
 
 div {
@@ -151,6 +151,7 @@ body > div {
 
 .quote {
     background-color:  #E5E7EB;
+    padding: 50px 0;
 }
 
 .quote .center {
@@ -165,15 +166,53 @@ body > div {
     font-size: 32px;
     font-weight: lighter;
     font-style: italic;
-    padding-top: 50px;
+
 }
 
 .quote .author {
-    align-self: right;
+    text-align: right;
+    font-size: 24px;
+    font-weight: bold;
 }
 
+.banner {
+    display: flex;
+    align-items: center;
+}
+
+.banner .center {
+    width: 100%;
+    border: 2px solid aqua;
+    background-color: #3882F6;
+    color:#F9FAF8;
+    border-radius: 5px;
+    padding: 20px 2.5%;
+    margin: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.banner .text {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.banner button {
+    box-sizing: content-box;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border: 1px solid white;
+    padding: 6px 28px;
+    border-radius: 6px;
+    white-space: nowrap
+}
 
 .footer {
     display: flex;
     justify-content: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 20px 0;
 }
+
