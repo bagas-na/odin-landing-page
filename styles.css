@@ -155,7 +155,6 @@ body > div {
 }
 
 .quote .center {
-    flex-direction: ;
     max-width: 800px;
     display: flex;
     flex-direction:column;
